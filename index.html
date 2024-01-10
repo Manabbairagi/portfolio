@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manab Bairagi- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            margin: -30px 0px;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .leftSection .btn1 {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 132%;
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection {
+            font-size: 1.4rem;
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 100vh;
+            height: 2px;
+            margin: 56px 70px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0 80px;
+        }
+
+        .image-top {
+            width: 110px;
+            position: relative;
+            top: -59px;
+            left: -47px;
+        }
+
+        .verticaltitle {
+            position: relative;
+            top: 05px;
+            width: 150px;
+        }
+
+        .verticledesc {
+            position: relative;
+            top: 05px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdSection {
+            font-size: 1.4rem;
+        }
+
+        .textgray1 {
+            color: gray;
+        }
+
+        .thirdSection .box1 {
+            background: white;
+            width: 140vh;
+            height: 2px;
+            margin: 56px 70px;
+            display: flex;
+        }
+
+        .thirdSection .vertical1 {
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0 80px;
+        }
+
+        .image-top1 {
+            width: 53px;
+            position: relative;
+            top: -55px;
+            left: -17px;
+        }
+
+        .verticaltitle1 {
+            position: relative;
+            top: 9px;
+            width: 150px;
+        }
+
+        .verticledesc1 {
+            position: relative;
+            top: 05px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        .thirdSection .vertical2 {
+            height: 72px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 164px;
+        }
+
+        .image-top2 {
+            width: 50px;
+            position: relative;
+            top: -55px;
+            left: -26px;
+        }
+
+        .verticaltitle2 {
+            position: relative;
+            top: 9px;
+            width: 150px;
+        }
+
+        .verticledesc2 {
+            position: relative;
+            top: 01px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        .thirdSection .vertical3 {
+            height: 72px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 30px;
+        }
+
+        .image-top3 {
+            width: 73px;
+            position: relative;
+            top: -67px;
+            left: -33px;
+        }
+
+
+        .verticaltitle3 {
+            position: relative;
+            top: -13px;
+            width: 150px;
+        }
+
+        .verticledesc3 {
+            position: relative;
+            top: 01px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        .thirdSection .vertical4 {
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 152px;
+        }
+
+        .image-top4 {
+            width: 50px;
+            position: relative;
+            top: -54px;
+            left: -22px;
+        }
+
+        .verticaltitle4 {
+            position: relative;
+            top: 10px;
+            width: 150px;
+        }
+
+        .verticledesc4 {
+            position: relative;
+            top: 01px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        @media screen and (max-width: 1236px) {
+            body {
+                background-color: red;
+            }
+
+            .firstSection {
+                flex-direction: column-reverse;
+            }
+            nav{
+                flex-direction: column;
+            }
+            .leftSection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            footer {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Manab's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Hi, I am <span class="purple">Manab</span></div>
+                <div>and I am a passionate
+                    <span id="element"></span>
+                    <div class="buttons">
+                       <a href="./Resume.pdf" download=""> <button class="btn">Download Resume</button></a>
+                        <button class="btn1">Visit Git-hub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="./img/pg3.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textgray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./img/exposys.png" alt="">
+                    <div class="verticaltitle">
+                        Internship at Exposys Data Labs
+                        <div class="verticledesc">
+                            worked on a project based in Data Science
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <span class="textgray1">Projects I have build so far</span>
+            <h1>Projects</h1>
+            <div class="box1">
+                <div class="vertical1">
+                    <img class="image-top1" src="./img/healthcheck.png" alt="">
+                    <div class="verticaltitle1">
+                        Health Checker
+                        <div class="verticledesc1">
+                            a health checker that checks your calorie intake
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical2">
+                    <img class="image-top2" src="./img/clock1.png" alt="">
+                    <div class="verticaltitle2">
+                        Clock
+                        <div class="verticledesc2">
+                            A 24 hour based Clock
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical3">
+                    <img class="image-top3" src="./img/weather.png" alt="">
+                    <div class="verticaltitle3">
+                        Weather
+                        <div class="verticledesc3">
+                            Shows the weather of a particular region
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical4">
+                    <img class="image-top4" src="./img/todolist.png" alt="">
+                    <div class="verticaltitle4">
+                        To-Do-List
+                        <div class="verticledesc4">
+                            Helps you create a To-do-List
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Manab's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; manabsportfolio.com|All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>
